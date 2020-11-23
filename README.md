@@ -14,16 +14,15 @@ we uses the [webpack setting guide](https://github.com/getfutureproof/fp_guides_
     "webpack": "^5.6.0",
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0"
-    ```
+    
 
-    ```"dependencies": {
+    "dependencies": {
     "@babel/core": "^7.12.7",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-    ```
-</br>
+```
 
 ## The Exercise
 
