@@ -10,10 +10,16 @@ class ArtistBio extends Component {
     render() {
         return (
             <div>
-                <h1>{this.artist.name} Sounds</h1>
-                <h3>{this.artist.genre} Musician</h3>
-                <h2>Biography:</h2>
-                <p>{this.artist.bio}</p>
+                <div className="biography">
+                    <h1>{this.artist.name} Sounds</h1>
+                    <h3>{this.artist.genre} Musician</h3>
+                </div>
+                <div className='bioContainer'>
+                    <h2>Biography:</h2>
+                    <div className="bio">
+                        <p>{this.artist.bio}</p>
+                    </div>
+                </div>
             </div>
         );
     }
