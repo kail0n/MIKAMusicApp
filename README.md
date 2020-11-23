@@ -23,7 +23,7 @@ we uses the [webpack setting guide](https://github.com/getfutureproof/fp_guides_
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
     ```
-
+</br>
 
 ## The Exercise
 
