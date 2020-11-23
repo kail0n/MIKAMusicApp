@@ -25,7 +25,7 @@ we uses the [webpack setting guide](https://github.com/getfutureproof/fp_guides_
     ```
 
 
-# The Exercise
+## The Exercise
 
 - Music App: Create a React Website that showcases your favourite artists songs/albums.
   - Setup your first React App using npm and Webpack.
