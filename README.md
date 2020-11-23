@@ -30,6 +30,8 @@ we uses the [webpack setting guide](https://github.com/getfutureproof/fp_guides_
 - Music App: Create a React Website that showcases your favourite artists songs/albums.
   - Setup your first React App using npm and Webpack.
   - Install the required libraries
-  - Using JSX make your website a portfolio of their work. The site should be broken down into components that are rendered on the same page. It should contain at the very minimum two components. An example would be:
+  - Using JSX make your website a portfolio of their work. 
+    The site should be broken down into components that are rendered on the same page. 
+    It should contain at the very minimum two components. An example would be:
     - Their name, music type and an introduction paragraph.
     - A list of their songs/albums including name,release date and cover art. \
