@@ -33,4 +33,4 @@ we uses the [webpack setting guide](https://github.com/getfutureproof/fp_guides_
     The site should be broken down into components that are rendered on the same page. 
     It should contain at the very minimum two components. An example would be:
     - Their name, music type and an introduction paragraph.
-    - A list of their songs/albums including name,release date and cover art. \
+    - A list of their songs/albums including name,release date and cover art. 
