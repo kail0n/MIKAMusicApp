@@ -62,16 +62,22 @@ color: var(--gray);
 
 .recordContainer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    align-content: center;
     padding:20px;
+}
+.recordContainer h1{
+    align-self: center;
 }
 .resize{
     width: 250px;
     height: 200px;
     object-fit: scale-down;
+    align-self: center;
 }
 
 a{
     text-decoration: none;
     color:var(--orange);
+    align-self: center;
 }

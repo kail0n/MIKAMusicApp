@@ -29,8 +29,8 @@ class Discography extends Component{
                 {this.albums.record.map((record) => {
                     return (
                         <div className='recordContainer'>
-                            <h1>{record.title}</h1>
                             <img className='resize' src={record.image} />
+                            <h1>{record.title}</h1>
                             <a href={record.linkToAlbum}>Go to {record.title}</a>
                         </div>
                     );
