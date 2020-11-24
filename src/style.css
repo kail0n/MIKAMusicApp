@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --forTitle: 'Poppins', sans-serif;
+    --forText: 'Raleway', sans-serif;
+    --gray:#565656;
+    --orange: #ffa502;
+}
+
+h1,h2,h3 {
+    font-family: var(--forTitle);
+    color: var(--orange);
+    padding: 5px;
+    margin:10px;
+}
+
+p{
+font-family: var(--forText);
+color: var(--gray);
+} 
+
+.bio{
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--orange);
+}
+
+.biography{
+    width: 80%;
+    margin: auto;
+    background-color: var(--gray);
+    display: flex;
+    justify-content: space-around;
+}
+
+.biography h1, .biography h3{
+    align-self: center;
+}
+
+.bioContainer{
+    width: 80%;
+    margin: auto;
+    background-color: var(--gray);
+    padding: 10px;
+    text-align: center;
+}
+
+.bioContainer p{
+    text-align: justify;
+}
+
+.albumContainer{
+    /* border: 3px solid var(--gray); */
+    width: 80%;
+    margin: auto;
+}
+
+.recordContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding:20px;
+}
+.recordContainer h1{
+    align-self: center;
+}
+.resize{
+    width: 250px;
+    height: 200px;
+    object-fit: scale-down;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color:var(--orange);
+    align-self: center;
+}
