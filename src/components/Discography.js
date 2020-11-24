@@ -25,14 +25,14 @@ class Discography extends Component{
 
     render(){
         return(
-            <div>
+            <div className='albumContainer'>
                 {this.albums.record.map((record) => {
                     return (
-                        <>
+                        <div className='recordContainer'>
+                            <img className='resize' src={record.image} />
                             <h1>{record.title}</h1>
-                            <img src={record.image} />
                             <a href={record.linkToAlbum}>Go to {record.title}</a>
-                        </>
+                        </div>
                     );
                 })}
             </div>
