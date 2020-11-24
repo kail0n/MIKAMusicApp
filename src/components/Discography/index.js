@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { LikeButton } from '../';
 
 class Discography extends Component{
         state = {
@@ -33,14 +34,18 @@ class Discography extends Component{
                         <div className='recordContainer'>
                             <a href={album.linkToAlbum}><img className='resize' src={album.image} /></a>
                             <h1>{album.title}</h1>
-                            <ol>{album.songs.map((songs=>{
-                                return (
-                                        <li key={songs.toString()}>{songs}</li>
-                                )
-                            }
-                            ))}
-                            </ol>
-                        </div>
+                            
+                                <ol>{album.songs.map((songs=>{
+                                    return (
+                                        <div className='songsList'>
+                                        <li key={songs.toString()}>{songs} <LikeButton /></li>
+                                             
+                                             </div>
+                                    )   
+                                }
+                                ))}
+                                </ol>
+                     </div>
                     );
                 })};
             </div>

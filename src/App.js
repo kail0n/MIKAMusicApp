@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import ArtistBio from './components/ArtistBio';
-import Discography from './components/Discography';
+import { ArtistBio, Discography, LikeButton }  from './components';
 import './style.css';
 
 class App extends Component {
@@ -9,6 +8,7 @@ class App extends Component {
             <main>
                 <ArtistBio />
                 <Discography />
+                <LikeButton />
             </main>
         )
     }

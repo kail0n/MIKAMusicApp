@@ -81,3 +81,8 @@ a{
     color:var(--orange);
     align-self: center;
 }
+
+
+.songsList{
+    display: flex;
+}
