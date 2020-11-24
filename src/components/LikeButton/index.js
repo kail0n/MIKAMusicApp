@@ -14,7 +14,6 @@ class LikeButton extends Component {
             // needs a thumb up instead of string
             <>
                 <button onClick={this.handleLike} style={{background: this.state.liked ? 'green' : 'red'}}>👍</button>
-
             </>
         );
     };

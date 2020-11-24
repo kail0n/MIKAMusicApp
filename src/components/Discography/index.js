@@ -38,16 +38,15 @@ class Discography extends Component{
                                 <ol>{album.songs.map((songs=>{
                                     return (
                                         <div className='songsList'>
-                                        <li key={songs.toString()}>{songs} <LikeButton /></li>
-                                             
-                                             </div>
+                                            <li key={songs.toString()}>{songs} <LikeButton /></li>
+                                        </div>
                                     )   
                                 }
                                 ))}
                                 </ol>
                      </div>
                     );
-                })};
+                })}
             </div>
         );
     };

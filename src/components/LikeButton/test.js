@@ -1,5 +1,3 @@
-import { shallow } from 'enzyme';
-import { expectation } from 'sinon';
 import LikeButton from '.';
 
 describe('LikeButton', () => {
